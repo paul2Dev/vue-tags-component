@@ -51,7 +51,7 @@ function removeLastTag(event) {
 <style scoped>
 .tag-input {
   width: 100%;
-  border: 1px solid gray;
+  border: 1px solid #34495E;
   font-size: 0.9em;
   height: 50px;
   box-sizing: border-box;
@@ -62,11 +62,12 @@ function removeLastTag(event) {
   height: 30px;
   float: left;
   margin-right: 10px;
-  background-color: #eee;
+  background-color: #41B883;
   margin-top: 10px;
   line-height: 30px;
   padding: 0 5px;
   border-radius: 5px;
+  color: #34495E;
 }
 
 .tag-input__tag > span {
